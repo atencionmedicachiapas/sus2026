@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ab202d">
+<title>Seguimiento Asambleas SUS</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest-dashboard.json">
+<style>html,body{margin:0;height:100%;background:#f5f4f2}iframe{border:0;width:100%;height:100%;display:block}</style>
+</head>
+<body>
+<iframe id="app" title="Seguimiento Asambleas SUS" allow="clipboard-write"></iframe>
+<script>
+  // Pega aquí la URL /exec de la implementación de Apps Script
+  const EXEC_URL = 'https://script.google.com/macros/s/PEGA_AQUI_TU_ID/exec';
+  document.getElementById('app').src = EXEC_URL;
+</script>
+</body>
+</html>
